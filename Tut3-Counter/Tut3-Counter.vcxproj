@@ -10,6 +10,12 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UpDownCount.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UpDownCount.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{72D346D2-0E33-4934-B363-117442FDB0CB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -77,12 +83,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="UpDownCount.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="UpDownCount.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
