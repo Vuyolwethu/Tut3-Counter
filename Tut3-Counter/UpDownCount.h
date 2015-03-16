@@ -3,12 +3,12 @@
 class UpDownCount
 {
 private:
-	int start;
+	int start; 
 	int stop;
 public:
 
 	UpDownCount(int start = 0, int stop = 255); // constructor with default values
-	~UpDownCount();               // destructor 
+		~UpDownCount();               // destructor 
 	void SetStart(int initial);
 	void SetStop(int final);
 	int GetStart();
